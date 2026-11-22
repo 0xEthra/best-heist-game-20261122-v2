@@ -6,6 +6,10 @@
 // this file to /output and writes /output/dossier.json (the summary the
 // judge reads) with the vendored make.fun library. Deterministic: two runs
 // write byte-identical output.
+// The heist: three flooded rooms the thief must cross — the tide gallery,
+// the lens vault, and the airlock — while guards sweep vision cones and
+// rotating cameras scan the floor. Grab the loot target in each room,
+// keep the alarm meter below 100%, and escape before the Meridian drowns.
 // A working best-game-01 entry (Node 22, standard library only): the game is this directory's
 // game/ folder, plain static files a desktop browser loads offline (game/index.html and its ES
 // modules, no library and no network request), and the program hands it in. It copies game/ and
