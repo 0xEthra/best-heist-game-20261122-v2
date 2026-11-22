@@ -1,3 +1,11 @@
+// The Drowned Meridian — entry for make.fun "Make the best heist game"
+// (best-heist-game-20261122-0559): a stealth heist across three rooms of a
+// tide-flooded observatory — steal the loot, dodge guard vision cones and
+// rotating cameras, keep the alarm below 100%, and slip out the airlock.
+// This program hands the game in: it copies game/ and screenshots/ beside
+// this file to /output and writes /output/dossier.json (the summary the
+// judge reads) with the vendored make.fun library. Deterministic: two runs
+// write byte-identical output.
 // A working best-game-01 entry (Node 22, standard library only): the game is this directory's
 // game/ folder, plain static files a desktop browser loads offline (game/index.html and its ES
 // modules, no library and no network request), and the program hands it in. It copies game/ and
