@@ -55,6 +55,7 @@ class Game {
       ticks: this.tick, bonus: s.efficiencyBonus(Math.round(this.peakAlarm), this.tick), dock: this.dock,
     };
     drawRoom(ctx, this.room, this.actors, s, opts);
+    this.dock = opts.dock; // drawRoom fills a fresh array; keep the live one
     this.input.dock = this.dock;
     if (s.over && !this.won) {
       ctx.fillStyle = 'rgba(7,24,32,0.85)'; ctx.fillRect(0, HUD, W, H - HUD);
